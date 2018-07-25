@@ -35,7 +35,7 @@ public class JavaApplication14 {
         
         System.out.println(s.toString());
         
-        
+        System.out.printf("Total cost %d \nQuantity is %d \nModel number is %d-%d", 3, 87, 1337, 2);
     
     }
     
