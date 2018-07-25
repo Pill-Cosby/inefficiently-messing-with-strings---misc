@@ -35,7 +35,10 @@ public class JavaApplication14 {
         
         System.out.println(s.toString());
         
-        System.out.printf("Total cost %d \nQuantity is %d \nModel number is %d-%d", 3, 87, 1337, 2);
+        System.out.printf("Total cost %d \nQuantity is %d \nModel number is %d-%d\n", 3, 87, 1337, 2);
+        
+        for (int i=0; i < 8; i++) {
+            System.out.printf("%5d: here are 8 lines of repeating text\n", i);
     
     }
     
